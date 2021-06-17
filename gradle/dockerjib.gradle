@@ -23,7 +23,7 @@ jib {
     container {
         creationTime = "USE_CURRENT_TIMESTAMP"
         entrypoint = ['docker/entrypoint.sh']
-        ports = ['80', '443', '8282', '9443']
+        ports = ['80', '443', '8282', '10443']
         labels = [version:casServerVersion, name:project.name, group:project.group]
     }
     extraDirectories {
