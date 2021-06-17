@@ -32,7 +32,7 @@ COPY etc/cas/config/ /etc/cas/config/
 COPY etc/cas/services/ /etc/cas/services/
 COPY etc/cas/saml/ /etc/cas/saml/
 
-EXPOSE 8080 8443
+EXPOSE 8282 9443
 
 ENV PATH $PATH:$JAVA_HOME/bin:.
 
