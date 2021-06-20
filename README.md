@@ -30,7 +30,7 @@ dependencies {
 
 # Deployment
 
-- Buat file keystore dengan nama `thekeystore` di dalam `/etc/cas`. GUnakan password `changeit` untuk keystorenya dan sertifikat. Dapat juga dibuat dengan perintah `keytool` dari JDK, yaitu:
+- Buat file keystore dengan nama `thekeystore` di dalam `/etc/cas`. Gunakan password `changeit` untuk keystorenya dan sertifikat. Dapat juga dibuat dengan perintah `keytool` dari JDK, yaitu:
 
 ```bash
 ./gradlew[.bat] createKeystore
